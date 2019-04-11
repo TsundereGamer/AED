@@ -1,0 +1,1 @@
+from fich03_group_I.ex05_declaracoes import infixToPostfix
