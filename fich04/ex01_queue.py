@@ -17,6 +17,23 @@ class Queue:
     def __str__(self):
         string = ""
         for item in self.items:
-            string = string + item + " "
+           string = string + " " + item
 
         return string
+
+
+def main():
+    q = Queue()
+
+    q.enqueue("a")
+    q.enqueue("b")
+    q.enqueue("c")
+    q.enqueue("d")
+    q.enqueue("e")
+    q.enqueue("f")
+
+    print(q)
+
+
+if __name__ == "__main__":
+        main()
