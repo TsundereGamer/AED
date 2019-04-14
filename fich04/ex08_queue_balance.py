@@ -1,15 +1,49 @@
 from fich04.ex01_queue import Queue
+from fich03_group_I.stack import Stack
 
 
 def process(q, a, b):
-    while q is not q.isEmpty():
-        for item in q.items:
-            if a.size() < b.size() or q.items :
-                a.enqueue(q.items)
-            elif b.size() < a.size():
-                b.enqueue(q.items)
-            else:
-                q.dequeue()
+    q_s = Stack()
+    for i in q.items:
+        q_s.push(i)
+
+    a_s = Stack()
+    b_s = Stack()
+
+    while not q_s.isEmpty():
+        tmp_op = q_s.pop()
+        tmp_name = q_s.pop()
+        if tmp_op == "A":
+            a_s.push(tmp_name)
+        elif tmp_op == "B":
+            b_s.push(tmp_name)
+        elif tmp_op == "X":
+            if a_s.size() < b_s.size():
+                a_s.push(tmp_name)
+            elif a_s.size() > b_s.size():
+                b_s.push(tmp_name)
+            elif a_s.size() == b_s.size():
+                tmp_name = None
+                tmp_op = None
+
+    for x in a_s.items:
+        a.enqueue(x)
+
+    for y in b_s.items:
+        b.enqueue(y)
+
+    for j in q_s.items:
+        q.enqueue(j)
+
+    return q.items, a.items, b.items
+
+
+def __str__(self):
+    string = ""
+    for item in self.items:
+        string = string + " " + str(item)
+
+    return string
 
 
 def read_int():
@@ -48,10 +82,12 @@ def main():
     process(q, a, b)
 
     print("-------------------------------")
-    print("q: ", q)
+    print("Final:")
+    print("q: ")
     print("a: ", a)
     print("b: ", b)
 
 
 if __name__ == "__main__":
     main()
+

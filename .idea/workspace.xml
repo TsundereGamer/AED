@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py" line="20" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Uni.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Uni.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich03_group_I/stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich03_group_I/stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich04/ex01_queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex01_queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich04/ex04_deque.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex04_deque.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich04/ex09_merge.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex09_merge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich04/ex08_queue_balance.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex08_queue_balance.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,27 +16,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="AED" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fich03_group_I/ex01_exponentiation.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fich03_group_I/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fich04/ex09_merge.py">
+        <entry file="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -49,8 +36,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fich04/ex01_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
+            <state relative-caret-position="407">
+              <caret line="21" column="21" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fich03_group_I/stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fich04/ex09_merge.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="672">
+              <caret line="38" column="20" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -94,6 +102,7 @@
         <option value="$PROJECT_DIR$/fich04/ex01_queue.py" />
         <option value="$PROJECT_DIR$/fich03_group_I/stack.py" />
         <option value="$PROJECT_DIR$/fich04/ex09_merge.py" />
+        <option value="$PROJECT_DIR$/fich04/ex08_queue_balance.py" />
       </list>
     </option>
   </component>
@@ -143,7 +152,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex09_merge">
+  <component name="RunManager" selected="Python.ex08_queue_balance">
     <configuration name="ex01_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -265,10 +274,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ex08_queue_balance" />
         <item itemvalue="Python.ex09_merge" />
         <item itemvalue="Python.stack" />
         <item itemvalue="Python.ex01_queue" />
-        <item itemvalue="Python.ex08_queue_balance" />
         <item itemvalue="Python.ex05b_palindrome" />
       </list>
     </recent_temporary>
@@ -290,24 +299,24 @@
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1369863" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" weight="0.30347735" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
+      <window_info active="true" id="Run" order="7" sideWeight="0.5016077" visible="true" weight="0.38198105" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.18113612" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1800643" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.35063437" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.26688102" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" />
+      <window_info anchor="bottom" id="Version Control" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3290461" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.3504823" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -475,11 +484,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-993" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich04/ex04_deque.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -512,27 +516,46 @@
     <entry file="file://$PROJECT_DIR$/fich03_group_I/infix_to_postfix.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex01_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="18" column="31" lean-forward="true" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich03_group_I/ex01_exponentiation.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich03_group_I/stack.py">
+    <entry file="file://$PROJECT_DIR$/fich03_group_II/ex09_exp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        <state relative-caret-position="-150">
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fich04/ex09_merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        <state relative-caret-position="672">
+          <caret line="38" column="20" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich03_group_I/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex01_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
