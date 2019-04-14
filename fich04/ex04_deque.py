@@ -19,3 +19,27 @@ class Deque:
 
     def size(self):
         return len(self.items)
+
+    def __str__(self):
+        string = ""
+        for item in self.items:
+           string = string + " " + item
+
+        return string
+
+
+def main():
+    q = Deque()
+
+    q.addRear("a")
+    q.addRear("b")
+    q.addRear("c")
+    q.addRear("d")
+    q.addRear("e")
+    q.addRear("f")
+
+    print(q)
+
+
+if __name__ == "__main__":
+        main()

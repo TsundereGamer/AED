@@ -16,3 +16,28 @@ class Stack:
 
     def size(self):
         return len(self.items)
+
+    def __str__(self):
+        string = ""
+        for item in self.items:
+            string = string + " " + item
+
+        return string
+
+
+def main():
+    s = Stack()
+
+    s.push("a")
+    s.push("b")
+    s.push("c")
+    s.push("d")
+    s.push("e")
+    s.push("f")
+    print(s.peek())
+
+    print(s)
+
+
+if __name__ == "__main__":
+        main()

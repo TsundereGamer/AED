@@ -17,7 +17,7 @@ class Queue:
     def __str__(self):
         string = ""
         for item in self.items:
-           string = string + " " + item
+            string = string + " " + str(item)
 
         return string
 
