@@ -4,14 +4,14 @@ from fich05.ex01_node import Node
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.length = 0
+        self.size = 0
 
     def isEmpty(self):
         return self.head is None
 
     def size(self):
         current = self.head
-        count = self.length
+        count = self.size
         while current is not None:
             count = count + 1
             current = current.getNext()

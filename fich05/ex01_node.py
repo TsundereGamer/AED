@@ -14,3 +14,7 @@ class Node:
 
     def setNext(self, newnext):
         self.next = newnext
+
+
+temp = Node(93)
+# print(temp.getData())

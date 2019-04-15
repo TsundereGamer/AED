@@ -30,7 +30,6 @@ class LinkedList:
         if current is not None:
             if current.getData() == item:
                 self.head = current.getNext()
-                current = None
                 return
 
         while current is not None:
@@ -42,7 +41,6 @@ class LinkedList:
 
         try:
             previous.next = current.getNext()
-            current = None
         except:
             print('Item nao encontrado: ', item)
 

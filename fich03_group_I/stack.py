@@ -34,10 +34,9 @@ def main():
     s.push("d")
     s.push("e")
     s.push("f")
-    print(s.peek())
 
     print(s)
 
 
 if __name__ == "__main__":
-        main()
+    main()

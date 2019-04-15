@@ -48,3 +48,4 @@ class LinkedList:
                 current = current.getNext()
 
         return found
+
