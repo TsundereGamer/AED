@@ -21,7 +21,7 @@ def main():
     player = input("Insere os nomes de quem joga ")
     players = player.split()
 
-    num = random.randint(1, 10)
+    num = random.randint(1, 11)
 
     winner = hot_potato(players, num)
     print("Winner is: ", winner)

@@ -1,5 +1,6 @@
 from fich05.ex01_node import Node
-import copy
+from copy import deepcopy
+from fich04.ex01_queue import Queue
 
 
 class LinkedList:
@@ -13,25 +14,22 @@ class LinkedList:
         self.head = temp
 
     def remove(self, item):
-        current = self.head
-        previous = None
 
-        if current is not None:
-            if current.getData() == item:
-                self.head = current.getNext()
+        if self.head is None:
+            return
+
+        while self.head.data == item:
+            self.head = self.head.next
+            if self.head is None:
                 return
 
-        while current is not None:
-            if current.getData() == item:
-                print('Item removido: ', current.getData())
-                break
-            previous = current
-            current = current.getNext()
-
-        try:
-            previous.next = current.getNext()
-        except:
-            print('Item nao encontrado: ', item)
+        current = self.head
+        while current.next is not None:
+            if current.next.data == item:
+                current.next = current.next.next
+            else:
+                current = current.next
+        return
 
     def search(self, item):
         current = self.head
@@ -127,6 +125,23 @@ class LinkedList:
             previous.next = current.getNext()
         return current.getData()
 
+    def copy(self):
+        q = Queue()
+        temp = LinkedList()
+        current = self.head
+
+        if self.head is None:
+            return
+
+        while current is not None:
+            q.enqueue(deepcopy(current.getData()))
+            current = current.next
+
+        for item in q.items:
+            temp.add(item)
+
+        return temp
+
     def __str__(self):
         result = "["
         current = self.head
@@ -139,13 +154,17 @@ class LinkedList:
         result += "]"
         return result
 
+def main():
+    my_list = LinkedList()
+    my_list.add(17)
+    my_list.add(93)
+    my_list.add(26)
+    my_list.append(54)
+    my_list.append(17)
+    print("Lista Inicial: ", my_list)
+    print("Lista Copiada: ", my_list.copy())
 
-my_list = LinkedList()
-my_list.add(17)
-my_list.add(93)
-my_list.add(26)
-my_list.append(54)
-my_list.append(17)
-my_list.insert(3, 12)
-my_list.insert(3, 11)
-print("Lista: ", my_list)
+
+if __name__ == '__main__':
+    main()
+

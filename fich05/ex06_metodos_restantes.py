@@ -12,25 +12,22 @@ class LinkedList:
         self.head = temp
 
     def remove(self, item):
-        current = self.head
-        previous = None
 
-        if current is not None:
-            if current.getData() == item:
-                self.head = current.getNext()
+        if self.head is None:
+            return
+
+        while self.head.data == item:
+            self.head = self.head.next
+            if self.head is None:
                 return
 
-        while current is not None:
-            if current.getData() == item:
-                print('Item removido: ', current.getData())
-                break
-            previous = current
-            current = current.getNext()
-
-        try:
-            previous.next = current.getNext()
-        except:
-            print('Item nao encontrado: ', item)
+        current = self.head
+        while current.next is not None:
+            if current.next.data == item:
+                current.next = current.next.next
+            else:
+                current = current.next
+        return
 
     def search(self, item):
         current = self.head

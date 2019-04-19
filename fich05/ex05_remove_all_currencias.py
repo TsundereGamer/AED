@@ -23,18 +23,23 @@ class LinkedList:
         temp.setNext(self.head)
         self.head = temp
 
-    # def remove(self, item):
-    #     current = self.head
-    #     previous = None
-    #
-    #     while current is not None:
-    #         if current.getData() == item:
-    #             self.head = current.getNext()
-    #             if
-    #     try:
-    #         previous.next = current.getNext()
-    #     except:
-    #         print('Item nao encontrado: ', item)
+    def remove(self, item):
+
+        if self.head is None:
+            return
+
+        while self.head.data == item:
+            self.head = self.head.next
+            if self.head is None:
+                return
+
+        current = self.head
+        while current.next is not None:
+            if current.next.data == item:
+                current.next = current.next.next
+            else:
+                current = current.next
+        return
 
     def search(self, item):
         current = self.head
@@ -61,6 +66,8 @@ class LinkedList:
 
 
 my_list = LinkedList()
+my_list.add(17)
+my_list.add(17)
 my_list.add(17)
 my_list.add(26)
 my_list.add(93)

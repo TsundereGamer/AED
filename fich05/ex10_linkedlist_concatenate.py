@@ -1,5 +1,6 @@
 from fich05.ex01_node import Node
-import copy
+from copy import deepcopy
+from fich04.ex01_queue import Queue
 
 
 class LinkedList:
@@ -13,25 +14,22 @@ class LinkedList:
         self.head = temp
 
     def remove(self, item):
-        current = self.head
-        previous = None
 
-        if current is not None:
-            if current.getData() == item:
-                self.head = current.getNext()
+        if self.head is None:
+            return
+
+        while self.head.data == item:
+            self.head = self.head.next
+            if self.head is None:
                 return
 
-        while current is not None:
-            if current.getData() == item:
-                print('Item removido: ', current.getData())
-                break
-            previous = current
-            current = current.getNext()
-
-        try:
-            previous.next = current.getNext()
-        except:
-            print('Item nao encontrado: ', item)
+        current = self.head
+        while current.next is not None:
+            if current.next.data == item:
+                current.next = current.next.next
+            else:
+                current = current.next
+        return
 
     def search(self, item):
         current = self.head
@@ -127,7 +125,33 @@ class LinkedList:
             previous.next = current.getNext()
         return current.getData()
 
-    # def concatenate(self, b):
+    def copy(self):
+        q = Queue()
+        temp = LinkedList()
+        current = self.head
+
+        if self.head is None:
+            return
+
+        while current is not None:
+            q.enqueue(deepcopy(current.getData()))
+            current = current.next
+
+        for item in q.items:
+            temp.add(item)
+
+        return temp
+
+    def concatenate(self, b):
+        current = self.head
+
+        if self.head is None:
+            return
+
+        while current is not None:
+            current = current.next
+        current.next = b
+        return self.head.data
 
     def __str__(self):
         result = "["
@@ -141,15 +165,19 @@ class LinkedList:
         result += "]"
         return result
 
+def main():
+    my_lista = LinkedList()
+    my_lista.add(1)
+    my_lista.add(2)
+    my_lista.add(3)
+    my_listb = LinkedList()
+    my_listb.add(4)
+    my_listb.add(5)
+    my_listb.add(6)
+    print("Lista Inicial: ", my_lista)
+    print("Lista Copiada: ", my_lista.concatenate(my_listb))
 
-list_a = LinkedList()
-list_b = LinkedList()
-list_a.add(1)
-list_a.add(2)
-list_a.add(3)
-list_b.add(4)
-list_b.add(5)
-list_b.add(6)
-print(list_a.size())
 
-# print("Lista: ", list_a.concatenate(list_b))
+if __name__ == '__main__':
+    main()
+
