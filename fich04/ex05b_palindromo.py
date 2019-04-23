@@ -1,5 +1,6 @@
 from fich04.ex04_deque import Deque
 
+
 def palchecker(aString):
     aString = aString.replace(" ", "")
     chardeque = Deque()
@@ -7,15 +8,15 @@ def palchecker(aString):
     for ch in aString:
         chardeque.addRear(ch)
 
-    stillEqual = True
+    still_equal = True
 
-    while chardeque.size() > 1 and stillEqual:
+    while chardeque.size() > 1 and still_equal:
         first = chardeque.removeFront()
         last = chardeque.removeRear()
         if first != last:
-            stillEqual = False
+            still_equal = False
 
-    return stillEqual
+    return still_equal
 
 
 print(palchecker("lsdkjfskf"))
