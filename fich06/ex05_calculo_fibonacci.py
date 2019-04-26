@@ -1,22 +1,19 @@
 def fibonacci_rec(n):
-    if n < 0:
-        print("Input Incorreto")
-    elif n == 0:
+    if n == 0: #caso base
         return 0
-    elif n == 1:
+    if n == 1: #caso base
         return 1
     else:
-        return fibonacci_rec(n-1) + fibonacci_rec(n-2)
+        return fibonacci_rec(n-1) + fibonacci_rec(n-2) #passo recursivo
 
 
 def fibonacci_ite(n):
     a = 0
     b = 1
-    if n < 0:
-        print("Incorrect input")
-    elif n == 0:
+
+    if n == 0:
         return a
-    elif n == 1:
+    if n == 1:
         return b
     else:
         for i in range(2, n+1):

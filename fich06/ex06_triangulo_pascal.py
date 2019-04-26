@@ -1,32 +1,27 @@
-def pascal_triangle(n):
+def triangle(n):
     # Caso base
     if n == 0:
         return []
-
-    if n == 1:
+    # Caso base
+    elif n == 1:
         return [[1]]
-
-    # Caso recursivo
-    last_list = pascal_triangle(n - 1)
-    this_list = [1]
-
-    for i in range(1, n-1):
-        this_list.append(last_list[n-2][i-1] + last_list[n-2][i])
-    this_list.append(1)
-
-    last_list.append(this_list)
-
-    return last_list
-
-
-def ultima_linha(n):
-    triangle = pascal_triangle(n)
-    return triangle[n-1]
+    # Passo recursivo
+    else:
+        new_row = [1]
+        result = triangle(n-1)
+        last_row = result[-1]
+        for i in range(len(last_row)-1):
+            new_row.append(last_row[i] + last_row[i+1])
+        new_row += [1]
+        result.append(new_row)
+    return result
 
 
 def main():
-    for x in pascal_triangle(5):
-        print(x)
+    h = 5
+
+    for i in triangle(h):
+        print(*i)
 
 
 if __name__ == '__main__':

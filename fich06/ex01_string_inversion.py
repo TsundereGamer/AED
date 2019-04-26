@@ -1,8 +1,8 @@
-def invert(txt):
-    if len(txt) == 0:
-        return txt
+def invert(s):
+    if len(s) == 0:
+        return s
     else:
-        return invert(txt[1:]) + txt[0]
+        return invert(s[1:]) + s[0]
 
 
 string = input(str("Insira uma string"))

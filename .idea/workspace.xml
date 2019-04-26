@@ -3,8 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich04/ex05a_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex05a_palindromo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich04/ex05b_palindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich04/ex05b_palindromo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich06/ex01_string_inversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex01_string_inversion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich06/ex03_lista_invertida.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex03_lista_invertida.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich06/ex04_fatorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex04_fatorial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +22,7 @@
     <favorites_list name="AED" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -69,20 +72,30 @@
         <option value="$PROJECT_DIR$/fich04/ex03c_hot_potato.py" />
         <option value="$PROJECT_DIR$/fich04/ex08_queue_balance.py" />
         <option value="$PROJECT_DIR$/fich05/ex05_remove_all_currencias.py" />
-        <option value="$PROJECT_DIR$/fich06/ex01_string_inversion.py" />
         <option value="$PROJECT_DIR$/fich06/ex_02_palindromo.py" />
+        <option value="$PROJECT_DIR$/fich04/ex05b_palindromo.py" />
         <option value="$PROJECT_DIR$/fich06/ex03_lista_invertida.py" />
+        <option value="$PROJECT_DIR$/fich06/ex01_string_inversion.py" />
         <option value="$PROJECT_DIR$/fich06/ex04_fatorial.py" />
         <option value="$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py" />
-        <option value="$PROJECT_DIR$/fich04/ex05b_palindromo.py" />
+        <option value="$PROJECT_DIR$/fich06/test.py" />
         <option value="$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py" />
+        <option value="$PROJECT_DIR$/fich06/ex07_recursive_tree.py" />
+        <option value="$PROJECT_DIR$/fich06/ex11_neve.py" />
+        <option value="$PROJECT_DIR$/fich06/ex09_maze.py" />
+        <option value="$PROJECT_DIR$/fich06/ex08_recursive_triangle.py" />
+        <option value="$PROJECT_DIR$/fich06/ex07a_recursive_spiral.py" />
+        <option value="$PROJECT_DIR$/fich06/ex09a_maze.py" />
+        <option value="$PROJECT_DIR$/fich06/ex07c_recursive_tree_changed.py" />
+        <option value="$PROJECT_DIR$/fich06/ex07b_recursive_tree.py" />
+        <option value="$PROJECT_DIR$/fich06/teste.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -92,33 +105,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="AED" type="b2602c69:ProjectViewProjectNode" />
               <item name="AED" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AED" type="462c0819:PsiDirectoryNode" />
-              <item name="fich03_group_I" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AED" type="462c0819:PsiDirectoryNode" />
-              <item name="fich03_group_II" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AED" type="462c0819:PsiDirectoryNode" />
-              <item name="fich04" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AED" type="462c0819:PsiDirectoryNode" />
-              <item name="fich05" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AED" type="b2602c69:ProjectViewProjectNode" />
@@ -130,6 +122,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -152,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ex06_triangulo_pascal">
+  <component name="RunManager" selected="Python.ex01_string_inversion">
     <configuration name="ex01_string_inversion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -174,7 +167,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex03_lista_invertida" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex07b_recursive_tree" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -186,7 +179,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex03_lista_invertida.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex07b_recursive_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -195,7 +188,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex05_calculo_fibonacci" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex07c_recursive_tree_changed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -207,7 +200,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex07c_recursive_tree_changed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -216,7 +209,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex06_triangulo_pascal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ex09a_maze" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -228,7 +221,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/ex09a_maze.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -237,7 +230,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ex_02_palindromo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="teste" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -249,7 +242,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\TsundereGamer\Desktop\AED\fich06\ex02_palindromo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich06/teste.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,11 +253,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ex06_triangulo_pascal" />
-        <item itemvalue="Python.ex05_calculo_fibonacci" />
-        <item itemvalue="Python.ex03_lista_invertida" />
-        <item itemvalue="Python.ex_02_palindromo" />
         <item itemvalue="Python.ex01_string_inversion" />
+        <item itemvalue="Python.teste" />
+        <item itemvalue="Python.ex07b_recursive_tree" />
+        <item itemvalue="Python.ex07c_recursive_tree_changed" />
+        <item itemvalue="Python.ex09a_maze" />
       </list>
     </recent_temporary>
   </component>
@@ -284,14 +277,14 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.098790325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.21908602" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Run" order="7" sideWeight="0.5016077" weight="0.9576613" />
+      <window_info id="Run" order="7" sideWeight="0.5016077" weight="0.51008064" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="2" weight="0.2658092" />
@@ -313,10 +306,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Calculation" />
-    <entry file="file://$PROJECT_DIR$/Conditionals" />
-    <entry file="file://$PROJECT_DIR$/Hello World.py" />
-    <entry file="file://$PROJECT_DIR$/fich05/node.py" />
     <entry file="file://$PROJECT_DIR$/fich05/test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
@@ -325,24 +314,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Mile2Km" />
-    <entry file="file://$PROJECT_DIR$/fich04/ex06a_sim_tarefas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex06bii_imp_menor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-668">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich04/ex06bi_num_maior.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-693">
@@ -359,29 +330,6 @@
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex10_rand_sim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-693">
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex04_deque.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex02_queue_lista.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
@@ -415,23 +363,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex09_merge.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="38" column="20" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich05/ex02_str.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich05/ex03_size.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -446,24 +377,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex01_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich05/ex11_doublelinkedlist.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="89" column="22" lean-forward="true" selection-start-line="89" selection-start-column="22" selection-end-line="89" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich05/ex04_remove_not_in_list.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -522,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex03a_hot_potato.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich04/ex03b_hot_potato.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -546,20 +456,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich05/ex05_remove_all_currencias.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich05/ex04_remove_not_in_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex03_lista_invertida.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex04_fatorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="71" selection-start-line="6" selection-start-column="71" selection-end-line="6" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex06a_sim_tarefas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-282">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex06bii_imp_menor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich05/ex02_str.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="51" selection-start-column="4" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex02_queue_lista.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex01_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex03a_hot_potato.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -570,48 +544,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich04/ex05b_palindromo.py">
+    <entry file="file://$PROJECT_DIR$/fich04/ex09_merge.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+        <state relative-caret-position="836">
+          <caret line="38" column="20" selection-start-line="37" selection-start-column="4" selection-end-line="38" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich06/ex02_palindromo.py">
+    <entry file="file://$PROJECT_DIR$/fich04/ex10_rand_sim.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/printer.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex05b_palindromo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex04_deque.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich04/ex08_queue_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-286">
+          <caret line="44" lean-forward="true" selection-start-line="44" selection-end-line="44" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/test.py" />
+    <entry file="file://$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex07a_recursive_spiral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex08_recursive_triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex09a_maze.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="121" column="9" lean-forward="true" selection-start-line="121" selection-start-column="9" selection-end-line="121" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex11_neve.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex07c_recursive_tree_changed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich06/ex07b_recursive_tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/fich06/ex01_string_inversion.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="39" />
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich06/ex06_triangulo_pascal.py">
+    <entry file="file://$PROJECT_DIR$/fich06/ex02_palindromo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="26" column="11" lean-forward="true" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich06/ex03_lista_invertida.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich06/ex04_fatorial.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fich06/ex05_calculo_fibonacci.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="264">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
