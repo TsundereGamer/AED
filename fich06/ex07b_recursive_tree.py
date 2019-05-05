@@ -21,7 +21,7 @@ def main():
     t.down()
     t.color("green")
     tree(75, t)
-    myWin.exitonclick()
+    my_win.exitonclick()
 
 
 if __name__ == '__main__':

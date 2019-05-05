@@ -4,24 +4,19 @@ from fich05.ex01_node import Node
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.length = 0
+        self.size = 0
 
     def isEmpty(self):
         return self.head is None
 
     def size(self):
-        current = self.head
-        count = self.length
-        while current is not None:
-            count = count + 1
-            current = current.getNext()
-
-        return count
+        return str(self.size)
 
     def add(self, item):
         temp = Node(item)
         temp.setNext(self.head)
         self.head = temp
+        self.size += 1
 
     def remove(self, item):
         current = self.head
@@ -30,11 +25,13 @@ class LinkedList:
         if current is not None:
             if current.getData() == item:
                 self.head = current.getNext()
+                self.size -= 1
                 return
 
         while current is not None:
             if current.getData() == item:
                 print('Item removido: ', current.getData())
+                self.size -= 1
                 break
             previous = current
             current = current.getNext()
@@ -75,6 +72,8 @@ my_list.add(26)
 my_list.add(54)
 my_list.add(17)
 print("Lista inicial: ", my_list)
+print("Nº Elementos: ", my_list.size)
 my_list.remove(5)
 my_list.remove(54)
 print("Lista depois: ", my_list)
+print("Nº Elementos: ", my_list.size)

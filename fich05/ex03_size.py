@@ -10,18 +10,13 @@ class LinkedList:
         return self.head is None
 
     def size(self):
-        current = self.head
-        count = self.size
-        while current is not None:
-            count = count + 1
-            current = current.getNext()
-
-        return count
+        return str(self.size)
 
     def add(self, item):
         temp = Node(item)
         temp.setNext(self.head)
         self.head = temp
+        self.size += 1
 
     def remove(self, item):
         current = self.head
@@ -30,6 +25,7 @@ class LinkedList:
         while not found:
             if current.getData() == item:
                 found = True
+                self.size -= 1
             else:
                 previous = current
                 current = current.getNext()
@@ -61,3 +57,22 @@ class LinkedList:
                 node = node.next
         result += "]"
         return result
+
+
+def main():
+    mylist = LinkedList()
+    mylist.add(10)
+    mylist.add(15)
+    mylist.add(20)
+    mylist.add(25)
+    mylist.add(26)
+    mylist.add(30)
+    print("Lista:", mylist)
+    print("Nº de Items:", mylist.size)
+    mylist.remove(30)
+    print("Lista:", mylist)
+    print("Nº de Items:", mylist.size)
+
+
+if __name__ == '__main__':
+    main()
