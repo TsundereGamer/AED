@@ -6,7 +6,6 @@ from fich04.ex01_queue import Queue
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.length = 0
 
     def add(self, item):
         temp = Node(item)
@@ -47,7 +46,7 @@ class LinkedList:
 
     def size(self):
         current = self.head
-        count = self.length
+        count = 0
         while current is not None:
             count = count + 1
             current = current.getNext()
@@ -80,7 +79,7 @@ class LinkedList:
     def insert(self, pos, item):
         node = Node(item)
         if not self.head:
-            head = node
+            self.head = node
         elif pos == 0:
             node.next = self.head
             self.head = node
@@ -101,8 +100,6 @@ class LinkedList:
         while current.getNext():
             if current.getNext() is None:
                 return current
-                del current
-                break
             else:
                 current = current.getNext()
 

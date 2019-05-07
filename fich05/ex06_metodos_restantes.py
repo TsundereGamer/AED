@@ -4,13 +4,11 @@ from fich05.ex01_node import Node
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.size = 0
 
     def add(self, item):
         temp = Node(item)
         temp.setNext(self.head)
         self.head = temp
-        self.size += 1
 
     def remove(self, item):
 
@@ -19,15 +17,12 @@ class LinkedList:
 
         while self.head.data == item:
             self.head = self.head.next
-            self.size -= 1
             if self.head is None:
                 return
-
         current = self.head
         while current.next is not None:
             if current.next.data == item:
                 current.next = current.next.next
-                self.size -= 1
             else:
                 current = current.next
         return
@@ -47,7 +42,13 @@ class LinkedList:
         return self.head is None
 
     def size(self):
-        return str(self.size)
+        current = self.head
+        count = 0
+        while current is not None:
+            count = count + 1
+            current = current.getNext()
+
+        return count
 
     def append(self, item):
         current = self.head
@@ -97,15 +98,13 @@ class LinkedList:
         while current.getNext():
             if current.getNext() is None:
                 return current
-                del current
-                break
             else:
                 current = current.getNext()
 
     def pop(self, pos=None):
         if pos is None:
-            pos = self.size + 1
-        elif pos < 0 or pos >= self.size:
+            pos = self.size()
+        elif pos < 0 or pos >= self.size():
             raise ValueError("Position doesn't exist")
 
         current_pos = 0

@@ -66,7 +66,7 @@ class DoubleLinkedList:
 
     def search(self, item):
         current = self.head
-        index = 1
+        index = 0
         while current is not None:
             if current.item == item:
                 return index
@@ -92,10 +92,22 @@ d.add(2)
 d.add(10)
 d.add(5)
 d.add(15)
+d.add(30)
+d.add(40)
+d.add(25)
+d.add(12)
+print("Lista inicial", d, "\n")
+
 d.remove(5)
-print(d.search(10))
-print(d.size())
-print(d.isEmpty())
-print(d)
+print("5 removido da Lista")
+print("Lista", d, "\n")
+
+d.remove(40)
+print("40 removido da Lista")
+print("Lista", d, "\n")
+
+print("Nº 10 no indice", d.search(10))
+print("Nº de items na Lista", d.size())
+print("Lista está vazia?", d.isEmpty())
 
 

@@ -6,7 +6,6 @@ from fich04.ex01_queue import Queue
 class LinkedList:
     def __init__(self):
         self.head = None
-        self.length = 0
 
     def add(self, item):
         temp = Node(item)
@@ -47,7 +46,7 @@ class LinkedList:
 
     def size(self):
         current = self.head
-        count = self.length
+        count = 0
         while current is not None:
             count = count + 1
             current = current.getNext()
@@ -80,7 +79,7 @@ class LinkedList:
     def insert(self, pos, item):
         node = Node(item)
         if not self.head:
-            head = node
+            self.head = node
         elif pos == 0:
             node.next = self.head
             self.head = node
@@ -101,8 +100,6 @@ class LinkedList:
         while current.getNext():
             if current.getNext() is None:
                 return current
-                del current
-                break
             else:
                 current = current.getNext()
 
@@ -144,14 +141,18 @@ class LinkedList:
 
     def concatenate(self, b):
         current = self.head
+        result = LinkedList()
 
-        if self.head is None:
-            return
+        if b.head is not None:
+            while b.head:
+                result.add(b.head.data)
+                b.head = b.head.next
 
-        while current is not None:
-            current = current.next
-        current.next = b
-        return self.head.data
+        if current is not None:
+            while current:
+                result.add(current.getData())
+                current = current.getNext()
+        return result
 
     def __str__(self):
         result = "["
@@ -174,8 +175,9 @@ def main():
     my_listb.add(4)
     my_listb.add(5)
     my_listb.add(6)
-    print("Lista Inicial: ", my_lista)
-    print("Lista Copiada: ", my_lista.concatenate(my_listb))
+    print("Lista Iniciala: ", my_lista)
+    print("Lista Inicialb: ", my_listb)
+    print("Lista Concatenada: ", my_lista.concatenate(my_listb))
 
 
 if __name__ == '__main__':
