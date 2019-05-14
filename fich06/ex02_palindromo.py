@@ -4,7 +4,7 @@ def verificar_alpha(string):
 
 
 def palindromo(string):
-    if len(string) < 1:
+    if len(string) <= 1:
         return True
     else:
         if string[0] == string[-1]:

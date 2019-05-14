@@ -9,13 +9,13 @@ wh = wn.window_height()*.5
 base_triangle_length = 2.0/math.sqrt(3.0)*wh
 
 # Parameters of the Koch triangle
-depth = 2
+depth = 3
 
 # Set up the turtle
 Koch = turtle.Turtle()
-Koch.speed(50*(depth+1))
+Koch.speed(5*(depth+1))
 Koch.penup()
-Koch.setposition((-wx/2,-wh/2))
+Koch.setposition((-wx/2, -wh/2))
 Koch.pendown()
 Koch.left(60)
 
@@ -40,4 +40,4 @@ def draw_koch_segment(t, run, mydepth, depth):
 for i in range(3):
     draw_koch_segment(Koch, base_triangle_length, 0, depth)
     Koch.right(120)
-# A challenge: can you get it to do a square?
+wn.exitonclick()

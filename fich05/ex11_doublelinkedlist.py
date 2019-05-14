@@ -110,4 +110,10 @@ print("Nº 10 no indice", d.search(10))
 print("Nº de items na Lista", d.size())
 print("Lista está vazia?", d.isEmpty())
 
-
+d.remove(12)
+d.remove(25)
+d.remove(30)
+d.remove(15)
+d.remove(10)
+d.remove(2)
+print(d)
