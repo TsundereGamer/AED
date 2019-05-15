@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich05/ex07_linkedlist_stack.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich05/ex07_linkedlist_stack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich05/ex11_doublelinkedlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich05/ex11_doublelinkedlist.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/ex01_string_inversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex01_string_inversion.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/ex02_palindromo.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex02_palindromo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/ex07b_recursive_tree.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex07b_recursive_tree.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/ex07c_recursive_tree_changed.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex07c_recursive_tree_changed.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/ex11_neve.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/ex11_neve.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich06/maze.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fich06/maze.txt" afterDir="false" />
-    </list>
+    <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/fich07/01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            <state relative-caret-position="399">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fich8/01.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fich05/ex01_linkedlist.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -106,13 +117,14 @@
         <option value="$PROJECT_DIR$/fich05/ex11_doublelinkedlist.py" />
         <option value="$PROJECT_DIR$/fich06/ex09b_maze.py" />
         <option value="$PROJECT_DIR$/fich07/01.py" />
+        <option value="$PROJECT_DIR$/fich8/01.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="width" value="1240" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-7" />
+    <option name="width" value="1142" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -123,7 +135,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,10 +157,16 @@
               <item name="AED" type="462c0819:PsiDirectoryNode" />
               <item name="fich07" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AED" type="462c0819:PsiDirectoryNode" />
+              <item name="fich8" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,7 +189,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.01">
+  <component name="RunManager" selected="Python.01 (1)">
+    <configuration name="01 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Uni" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fich8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich8/01.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Uni" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -186,27 +224,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich07/01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ex07_linkedlist_stack" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Uni" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fich05" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fich05/ex07_linkedlist_stack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -280,11 +297,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01 (1)" />
         <item itemvalue="Python.01" />
         <item itemvalue="Python.ex09b_maze" />
         <item itemvalue="Python.ex09a_maze" />
         <item itemvalue="Python.ex11_doublelinkedlist" />
-        <item itemvalue="Python.ex07_linkedlist_stack" />
       </list>
     </recent_temporary>
   </component>
@@ -311,17 +328,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1142" height="1057" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49839228" weight="0.59248954" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.3088768" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Capture Tool" order="6" />
-      <window_info id="Run" order="7" sideWeight="0.5016077" weight="0.45564517" />
+      <window_info id="Run" order="7" sideWeight="0.5016077" weight="0.38405797" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3290461" />
       <window_info anchor="bottom" auto_hide="true" id="Debug" order="2" weight="0.4559659" />
@@ -343,16 +359,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/fich04/ex06biii_alunos_sim.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="18" column="66" lean-forward="true" selection-start-line="18" selection-start-column="66" selection-end-line="18" selection-end-column="66" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich03_group_I/ex02_int_float.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-745" />
@@ -652,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fich05/ex01_linkedlist.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fich05/ex06_metodos_restantes.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -703,8 +702,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fich07/01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="19" column="25" lean-forward="true" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        <state relative-caret-position="399">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich8/01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fich05/ex01_linkedlist.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="77" column="18" selection-start-line="77" selection-start-column="18" selection-end-line="77" selection-end-column="18" />
         </state>
       </provider>
     </entry>
