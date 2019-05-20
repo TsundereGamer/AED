@@ -4,23 +4,25 @@
 # you're in UNIX on a Mac or in Windows it gives you the same time
 import timeit
 
+
 def test1():
     l = []
     for i in range(1000):
         l = l + [i]
+
 
 def test2():
     l = []
     for i in range(1000):
         l.append(i)
 
+
 def test3():
     l = [i for i in range(1000)]
 
+
 def test4():
     l = list(range(1000))
-
-
 # create Timer object, whose parameters are two strings.
 # Each string should be a Python statement
 
@@ -28,7 +30,9 @@ def test4():
 #                                      |(this one imports the function test1
 #                                      |from __main__ namespace into the namespace that timeit
 #                 |statement to time   |runs the timing experiment)
-t1 = timeit.Timer( "test1()",          "from __main__ import test1")
+
+
+t1 = timeit.Timer("test1()", "from __main__ import test1")
 
 # We can pass to timeit a named parameter called number that
 # allows to specify how many times the test statement is executed

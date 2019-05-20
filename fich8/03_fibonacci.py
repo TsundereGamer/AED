@@ -1,3 +1,6 @@
+import timeit
+
+
 def fibonacci_rec(n):
     if n == 0: #caso base
         return 0
@@ -24,8 +27,11 @@ def fibonacci_ite(n):
 
 
 def main():
-    print("fibonacci recursivo: ", fibonacci_rec(9))
-    print("fibonacci iterativo: ", fibonacci_ite(9))
+    t1 = timeit.Timer("fibonacci_ite(9)", "from __main__ import fibonacci_ite")
+    print("fibonacci ite de 9 =", fibonacci_ite(9), "in", t1.timeit(number=1000), "ms")
+
+    t2 = timeit.Timer("fibonacci_rec(9)", "from __main__ import fibonacci_rec")
+    print("fibonacci rec de 9 =", fibonacci_rec(9), "in", t2.timeit(number=1000), "ms")
 
 
 if __name__ == '__main__':
