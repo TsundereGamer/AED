@@ -1,7 +1,3 @@
-import random
-import timeit
-
-
 def binarySearch(alist, item):
     first = 0
     last = len(alist)-1
@@ -19,9 +15,6 @@ def binarySearch(alist, item):
     return found
 
 
-randoms = random.sample(range(1000), 500)
-print(randoms)
-
-timeit.Timer("sorted(r)", setup = "import random; r = random.sample(range(1000), 500)")
-timeit.Timer("sorted(r)", "from __main__ import sorted")
-print("binarySearch de 17 =", binarySearch(random.sample(range(1000), 500), 17), "in", timeit.timeit(number=1000), "ms")
+testlist = [0, 1, 2, 8, 13, 17, 19, 32, 42,]
+print(binarySearch(testlist, 3))
+print(binarySearch(testlist, 13))

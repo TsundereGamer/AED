@@ -12,10 +12,10 @@ def bubbleSort(alist):
 
 
 def selectionSort(alist):
-    for fillslot in range(len(alist)-1,0,-1):
-        positionOfMax=0
-        for location in range(1,fillslot+1):
-            if alist[location]>alist[positionOfMax]:
+    for fillslot in range(len(alist)-1, 0, -1):
+        positionOfMax = 0
+        for location in range(1, fillslot+1):
+            if alist[location] > alist[positionOfMax]:
                 positionOfMax = location
 
         temp = alist[fillslot]
@@ -24,21 +24,21 @@ def selectionSort(alist):
 
 
 def insertionSort(alist):
-    for index in range(1,len(alist)):
+    for index in range(1, len(alist)):
 
         currentvalue = alist[index]
         position = index
 
-        while position>0 and alist[position-1]>currentvalue:
-            alist[position]=alist[position-1]
+        while position > 0 and alist[position-1] > currentvalue:
+            alist[position] = alist[position-1]
             position = position-1
 
         alist[position]=currentvalue
 
 
 def mergeSort(alist):
-    print("Splitting ",alist)
-    if len(alist)>1:
+    print("Splitting ", alist)
+    if len(alist) > 1:
         mid = len(alist)//2
         lefthalf = alist[:mid]
         righthalf = alist[mid:]
@@ -46,9 +46,9 @@ def mergeSort(alist):
         mergeSort(lefthalf)
         mergeSort(righthalf)
 
-        i=0
-        j=0
-        k=0
+        i = 0
+        j = 0
+        k = 0
         while i < len(lefthalf) and j < len(righthalf):
             if lefthalf[i] < righthalf[j]:
                 alist[k]=lefthalf[i]
