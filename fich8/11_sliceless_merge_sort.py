@@ -1,60 +1,51 @@
-def merge(alist, lefthalf, righthalf):
+import random
 
-    # the merge operation places the items back into
-    # the alist one at a time by repeatedly
-    # taking the smallest item from the sorted lists
-    print("Merging ", alist)
-    i = 0
-    j = 0
-    k = 0
-    while i < len(lefthalf) and j < len(righthalf):
-        if lefthalf[i] <= righthalf[j]:
-            alist[k] = lefthalf[i]
-            i = i + 1
+
+def _merge_sort(indices, the_list):
+    start = indices[0]
+    end = indices[1]
+    half_way = (end - start)//2 + start
+    if start < half_way:
+        _merge_sort((start, half_way), the_list)
+    if half_way + 1 <= end and end - start != 1:
+        _merge_sort((half_way + 1, end), the_list)
+    #a stack is created using log(n) number of recursions
+    sort_sub_list(the_list, indices[0], indices[1])
+
+
+def sort_sub_list(the_list, start, end):
+    orig_start = start
+    initial_start_second_list = (end - start)//2 + start + 1
+    list2_first_index = initial_start_second_list
+    new_list = []
+    while start < initial_start_second_list and list2_first_index <= end:
+        first1 = the_list[start]
+        first2 = the_list[list2_first_index]
+        if first1 > first2:
+            new_list.append(first2)
+            list2_first_index += 1
         else:
-            alist[k] = righthalf[j]
-            j = j + 1
-        k = k + 1
+            new_list.append(first1)
+            start += 1
+    while start < initial_start_second_list:
+        new_list.append(the_list[start])
+        start += 1
 
-    # Insert all the remaining values of
-    # the left half into the new sorted list
-    while i < len(lefthalf):
-        alist[k] = lefthalf[i]
-        i = i + 1
-        k = k + 1
-
-    # Insert all the remaining values of
-    # the left half into the new sorted list
-    while j < len(righthalf):
-        alist[k] = righthalf[j]
-        j = j + 1
-        k = k + 1
-
-def mergeSort(alist):
-
-    print("Splitting ", alist)
-
-    # Ask the base case question. If the length of the list
-    # is 1, then the list is sorted and we are finished
-    if len(alist) > 1:
-
-        # divide the list into two halves
-        # using the slice operation to extract them
-        mid = len(alist)//2
-        lefthalf = alist[:mid]
-        righthalf = alist[mid:]
-
-        # SORT the left half
-        mergeSort(lefthalf)
-        # SORT the right half
-        mergeSort(righthalf)
-
-        # MERGE the two sorted halves into a larger sorted list
-        # in this case into the original list alist
-        merge(alist, lefthalf, righthalf)
+    while list2_first_index <= end:
+        new_list.append(the_list[list2_first_index])
+        list2_first_index += 1
+    # at this point, the total number each while statement ran is  n
+    # now we have to do n again!
+    for i in new_list:
+        the_list[orig_start] = i
+        orig_start += 1
 
 
-#alist = [93, 54, 26, 77, 31]
-alist = [54,26,93,17,77,31,44,55,20]
-mergeSort(alist)
-print(alist)
+def mergeSort(the_list):
+    return _merge_sort((0, len(the_list) - 1), the_list)
+
+
+if __name__ == '__main__':
+    alist = random.sample(range(50), 25)
+    mergeSort(alist)
+    print(alist)

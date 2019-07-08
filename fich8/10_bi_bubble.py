@@ -1,4 +1,3 @@
-# Python program for implementation of Cocktail Sort
 import random
 
 def cocktailSort(a):
@@ -6,7 +5,7 @@ def cocktailSort(a):
     swapped = True
     start = 0
     end = n-1
-    while (swapped == True):
+    while swapped == True:
 
         # reset the swapped flag on entering the loop,
         # because it might be true from a previous
@@ -21,7 +20,7 @@ def cocktailSort(a):
                 swapped = True
 
         # if nothing moved, then array is sorted.
-        if (swapped == False):
+        if swapped == False:
             break
 
         # otherwise, reset the swapped flag so that it

@@ -9,10 +9,9 @@ def findmin_n(l):
 def findmin_n2(alist):
     for i in alist:
         i_is_min = True
-        for j  in alist:
+        for j in alist:
             if j < i:
                 i_is_min = False
-            j = j + 1
         if i_is_min:
             return i
 
