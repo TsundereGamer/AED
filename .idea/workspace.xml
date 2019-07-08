@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich07/01.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich07/01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich8/09_sort_500.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich8/09_sort_500.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich8/10_bi_bubble.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich8/10_bi_bubble.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich8/11_sliceless_merge_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/fich8/11_sliceless_merge_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fich8/tests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/fich8/tests.txt" afterDir="false" />
-    </list>
+    <list default="true" id="67aa49e4-4bec-4a74-a825-8e3ac94ddc34" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +15,7 @@
     <favorites_list name="AED" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -116,7 +109,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -124,15 +116,11 @@
               <item name="AED" type="b2602c69:ProjectViewProjectNode" />
               <item name="AED" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="AED" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AED" type="462c0819:PsiDirectoryNode" />
-              <item name="extra" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -300,9 +288,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" side_tool="true" visible="true" weight="0.29731545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" side_tool="true" visible="true" weight="0.37460485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.24973656" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32982087" />
       <window_info id="Image Layers" order="3" />
